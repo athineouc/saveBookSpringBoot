@@ -13,7 +13,7 @@ How to Run it:
 
 4. git-clone or download the project
 
-//in another terminal run the postgress database image (need for the tests)
+//in another terminal run the postgress database image 
 
 5. sudo docker run -p 5432:5432 -e POSTGRES_DB=mydb -e POSTGRES_PASSWORD=mysecretpassword  postgres
 
