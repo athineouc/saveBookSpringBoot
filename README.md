@@ -19,6 +19,6 @@ How to Run it:
 
 6. ./gradlew build
 
-7. stop the image running the postgress db
+7. sudo docker build -t bookapp . 
 
-8. sudo docker-compose up --build
+8. sudo docker run -i  --net=host -p 9080:9080 bookapp:latest
